@@ -110,6 +110,7 @@
             btnconvertir.BackColor = Color.LavenderBlush;
             btnconvertir.FlatStyle = FlatStyle.Flat;
             btnconvertir.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnconvertir.ForeColor = SystemColors.ControlText;
             btnconvertir.Location = new Point(149, 291);
             btnconvertir.Name = "btnconvertir";
             btnconvertir.Size = new Size(180, 36);
