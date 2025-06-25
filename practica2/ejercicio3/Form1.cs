@@ -5,7 +5,7 @@ namespace ejercicio3
         public Form1()
         {
             InitializeComponent();
-            cmbUnidadEntrada.Items.AddRange(new string[] {"metros", "centimetros", "pulgadas" });
+            cmbUnidadEntrada.Items.AddRange(new string[] { "metros", "centimetros", "pulgadas" });
             cmbUnidadSalida.Items.AddRange(new string[] { "metros", "centimetros", "pulgadas" });
 
             cmbUnidadEntrada.SelectedIndex = 0;
@@ -38,8 +38,8 @@ namespace ejercicio3
                     return valor / 100.0;
                 default:
                     return valor;
-                    case "pulgadas":
-                    return valor * 0.0254; 
+                case "pulgadas":
+                    return valor * 0.0254;
             }
         }
 
@@ -56,6 +56,11 @@ namespace ejercicio3
                 case "pulgadas":
                     return valor * 0.0254;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

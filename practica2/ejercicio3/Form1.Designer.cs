@@ -147,6 +147,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Conversor de Longitud";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
